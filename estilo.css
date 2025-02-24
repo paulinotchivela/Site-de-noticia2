@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "fonte geral" ;
+    src: url("../fontes/fonte geral.ttf") format("truetype"); 
+
+    font-family: "fonte tema" ;
+    src: url("../fontes/fonte tema.ttf") format("truetype"); 
+
+}
+
+:root {
+    --fonte-padrao: "fonte geral", arial, serif;
+    --fonte-destaque: "fonte tema";
+    --core01:#2B44CF;
+    --core02:#0E03A3;
+    --core03:#070255;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f0f2fa;
+    font-family: var(--fonte-padrao);
+
+}
+
+header {
+    background-color: var(--core01);
+    min-height: 100px;
+    font-family: var(--fonte-destaque);
+    text-align: right;
+    
+
+}
+
+header P {
+       color: white;
+       
+       
+
+}
+
+header a {
+    position: absolute;
+}
+
+nav {
+    padding: 50px;
+    
+}
+
+nav > a {
+    background-color: #0E03A3;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
+
+}
+
+nav > a:hover {
+    background-color: #2B44CF;
+
+}
+
+main {
+    margin: auto;
+    min-width: 500px;
+    max-width: 1000px;
+    padding: 30px;
+    background-color: white;
+}
+
+main a {
+ text-decoration: none;
+ color: #2B44CF;
+ 
+ 
+
+}
+
+
+
+h1 { 
+
+    font-family: var(--fonte-destaque);
+
+}
+
+
+h2 {font-family: var(--fonte-destaque);
+    margin: 15px 0px;
+    color: white;
+    background-image: linear-gradient(to right, #2B44CF, transparent);
+}
+
+h3 { margin: 15px 0px;
+    font-family: var(--fonte-destaque);
+}
+
+p {
+    margin: 15px 0px;
+    text-align: center;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: medium;
+}
+
+
+footer {
+    background-color: #2B44CF;
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    padding: 20px;
+    
+}
+
