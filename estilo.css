@@ -45,9 +45,60 @@ header P {
 
 }
 
-header a {
+.search-box {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+    background-color: white;
+    height: 30px;
+    border-radius: 30px;
+    padding: 5px;
 
 }
+
+.search-btn {
+
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#cac8eb ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+
+}
+
+.search-text {
+
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(53, 52, 52);
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+
+    
+
+}
+
+.search-box:hover > .search-text  {
+
+width: 250px;
+padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: white;
+    
+}
+
 
 nav {
     padding: 50px;
